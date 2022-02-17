@@ -1,0 +1,75 @@
+body#bg{
+  background-image: repeating-linear-gradient(white, darkgreen);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 1350px;
+}
+*{
+  font-family:Trebuchet MS;
+}
+#page{
+  color: crimson;
+}
+.wrap{
+  justify-content: center;
+  display: flex;
+}
+h1{
+  position: relative;
+  color: crimson;
+  text-align: center;
+}
+h2{
+  position: relative;
+  font-size: 18px;
+  font-weight: normal;
+  color: crimson;
+  text-align: center;
+}
+aside{
+  width: 80%;
+  height: 500px;
+}
+section{
+  float: right;
+  width: 20%;
+  height: 500px;
+  font-size: 18px;
+  margin: 35px;
+}
+#rest{
+  position: relative;
+}
+#cap{
+  text-align:center;
+  color: crimson;
+}
+#uh{
+  width: 80%;
+  color: lightgrey;
+  text-align:justify;
+}
+li li{
+  list-style-type: circle;
+}
+.ls{
+  margin-bottom: 50px;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 800px;
+  position: bottom left;
+  display: inline-table;
+  margin-bottom: 50px;
+  color: crimson;
+}
+.tb{
+  margin: 20px;
+}
+.title{
+  font-weight: bold;
+}
+td{
+  border: 1px solid black;
+}
